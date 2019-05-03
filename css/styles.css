@@ -36,3 +36,38 @@ body{
 .contenedor{
     background-color: var(--blanco);
 }
+
+/***** menu css *****/
+
+.nav{
+    margin-bottom: 30px;
+}
+.nav ul{
+    list-style: none;
+    background-color: var(--naranja);
+    display: flex;
+    padding:10px 0;
+    padding-left: 40px;
+    
+}
+.nav li{
+    text-align: center;
+}
+.nav a{ 
+    background-color: var(--naranja);  
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 10px;
+   color:var(--blanco);
+   display: block;
+   border-right: 1px solid var(--blanco);
+   font-weight: bold;
+}
+.nav a:hover{
+    background-color: brown;
+}
+
+/****** slider css *****/
+.slider{
+    text-align: center;
+}
