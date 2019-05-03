@@ -5,6 +5,7 @@
     --negro: #000000;
     --gris: #333333;
     --blanco: #FFFFFF;
+    --gris-claro:#CCCCCC;
 }
 
 *{
@@ -70,4 +71,43 @@ body{
 /****** slider css *****/
 .slider{
     text-align: center;
+}
+
+/**  **/
+
+.principal{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 30px;
+}
+.categorias{
+    margin: auto;
+    background-color: aqua;
+}
+
+.productos{
+    background-color: red;
+}
+
+.cat-list{
+    padding: 5px;
+    display: block;
+    list-style: none;
+}
+.cat-list li{
+ padding: 5px;
+}
+
+.cat-list a{
+    padding: 5px;
+    display: block;
+    background-color: yellow;
+    border-bottom: 1px dashed black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cat-list a:hover{
+    display: block;
+    background-color: orange;
 }
