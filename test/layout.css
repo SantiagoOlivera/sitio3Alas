@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+/* Definimos la condicion de tamaño de pantalla
+*/
+@media (max-width: 768px){
+    body{
+       background-color: blue;
+    }
+    h1{
+        color:red;
+        font-size:12px;
+    }
+}
