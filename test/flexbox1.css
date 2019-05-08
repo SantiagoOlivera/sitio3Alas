@@ -1,0 +1,9 @@
+
+.flex{
+	box-sizing: boder-box;
+}
+.flex-item{
+	background-color: rebeccapurple;
+	height: 100px;
+	border: 2px solid gold;
+}

@@ -1,0 +1,28 @@
+.padre{
+    max-width:800px;
+    margin:0 auto;
+}
+.hijo1{
+    background-color: purple;
+    height: 100px;
+    width:50%;
+    height: 100vh;
+    min-height: 300px;
+}
+.hijo2{
+    background-color: skyblue;
+    height: 100px;
+    /* "viewport width"*/
+    /* mide la mitad de la pantalla esta basado en el body (ancho)*/
+    width: 50vw;
+    /* "viewport height"*/
+    /* mide la mitad de la pantalla esta basado en el body (alto)*/
+    height: 20vh;
+}
+
+/*Cuadrado Responsive*/
+.cuadrado{
+    background-color: blue;
+    width:50vw;
+    height: 50vw;
+}

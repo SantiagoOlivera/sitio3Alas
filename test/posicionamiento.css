@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+
+.padre{
+    width: 480px;
+    height: 480px;
+    background-color: beige;
+    margin: 0 auto;
+    position: relative;
+}
+/* siginifica que todos los hijos (divs) directos de padre*/
+.padre > div{
+    background-color: pink;
+    width: 200px;
+    margin: 10px;
+    float: left;
+
+    font-size: 36px;
+    text-align: center;
+    line-height: 200px;
+}
+/* div.hijo3 (sin espacio)*/
+/* .hijo3.hijo3 aumenta el nivel de espeficidad*/
+.hijo3.hijo3{
+    background-color: skyblue;
+    position:static; /* valor predeterminado de position. 
+    Todos los elementos se ubican uno abajo del otro. nunca se pisan
+    default
+    */
+
+
+    /*
+    * Relative: 
+    *        Se activan las capas
+    *        Se mantiene su espacio original
+    *        0 ES LA POSICION ORIGINAL  
+    *
+    */
+    position: relative;
+    top:0px;
+    left: 0px;
+    
+    /*
+    *    Absolute:
+            Pierde su espacio original
+            Lo va tomar el elemento siguiente
+            Activa las capas
+            Se mueve basado en la esquina superior izquierda de 
+            la pantalla     -------No!
+
+            Se mueve en el primer elemento no statico que encuentre
+
+    */
+    position: absolute;
+    top:-20px;
+    left:340px;
+    z-index: 1; /* z-index tiene relacion con el padre*/
+}
+
+/*
+* Cundo dos elementos o mas no estaticos pelean por capas, el que gana es el ultimo del HTML
+*/
+.hijo4.hijo4{
+    background-color: hotpink;
+    position: relative;
+    top:-200px;
+    left: 200px;
+}

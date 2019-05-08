@@ -1,0 +1,9 @@
+h1{
+    max-width: calc(50% + 200px);
+    margin: 50px auto;
+    background-color: pink;
+}
+
+p{
+    font-size: calc(24px + 10vw);
+}

@@ -1,0 +1,12 @@
+body{
+    background-color:green;
+}
+
+/*cuando es mas ancho que alto tiene un color sino tiene otro
+   Landscape and Portrait
+*/
+@media (orientation: landscape) and (max-width: 767px){
+    body{
+        background-color: blue;
+    }
+}

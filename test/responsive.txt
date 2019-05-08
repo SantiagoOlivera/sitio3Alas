@@ -1,0 +1,8 @@
+mobile first
+        @media(min-width: 500px){}
+        "Desde 0000px para arriba"
+desktop first
+        @media (max-width: 500px){}
+        "Desde 0000px para abajo"
+
+        
