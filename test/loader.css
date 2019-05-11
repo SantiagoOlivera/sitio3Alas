@@ -1,0 +1,37 @@
+body{
+    background-image: url('https://cms-assets.tutsplus.com/uploads/users/127/posts/31341/image/1_10.png');
+    background-size: cover;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.fondo{
+ width:300px;
+ height: 300px;
+ background-image: url('https://cms-assets.tutsplus.com/uploads/users/127/posts/31341/image/1_10.png');
+ background-size: cover;
+ background-size:contain;
+ background-repeat: no-repeat;
+
+}
+.parent{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,.5);
+    overflow-x: hidden;
+    background: rgb(0,0,0);
+}
+
+.child{
+    width: 100%;
+    height: 100%;
+    transition: transform 3s ease;
+    background: rgb(255,255,255);
+}
+
+.parent:hover .child{
+    transform: translateX(100%);
+}
+
+
+
