@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#cont_botonera{
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top:0;
+	background:rgba(0,0,0,0.8);
+	transition: background 0.3s;
+}
+#cont_botonera:hover{
+	background:rgba(0,0,0,1);
+}
+
+#botonera{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;	
+	height: 60px;
+}
+#botonera ul{
+	list-style-type: none;
+}
+#botonera ul li a{
+	text-decoration: none;
+	float: left;
+	height: 60px;
+	line-height: 65px;
+	width: 240px;
+	text-align: center;
+	font-size: 16px;
+	color: #EEE;
+	transition: width 1s, padding 1s, transform 0.3s, font-size 0.3s;
+}
+#botonera ul:hover li a{
+	width: 215px;
+}
+#botonera ul li a:hover{
+	font-family: 'Oleo Script Swash Caps', Arial;
+	font-size: 26px;
+	padding: 0 20px;
+}
+#botonera ul li:nth-child(1) a:hover{
+	color: #14DE5C;
+	transform: rotate(5deg) scale(1.1);
+}
+#botonera ul li:nth-child(2) a:hover{
+	color: #F0B740;
+	transform: rotate(-5deg) scale(1.1);
+}
+#botonera ul li:nth-child(3) a:hover{
+	color: #FB3D9D;
+	transform: rotate(5deg) scale(1.1);
+}
+#botonera ul li:nth-child(4) a:hover{
+	color: #4285F4;
+	transform: rotate(-5deg) scale(1.1);
+}
+#botonera ul li:nth-child(5) a:hover{
+	color: #DB06FF;
+	transform: rotate(5deg) scale(1.1);
+}
+
+
+.seccion{
+	line-height: 80vh;
+	text-align: center;
+	padding: 70px;
+	height: 90vh;
+	width: 90vw;
+	margin: 7vh auto 2vh;
+}
+.seccion:nth-child(2){
+	background-color: blue;
+}
+.seccion:nth-child(3){
+	background-color: yellow;
+}
+.seccion:nth-child(4){
+	background-color: hotpink;
+}
+.seccion:nth-child(5){
+	background-color: green;
+}
+
+
+

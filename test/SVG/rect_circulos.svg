@@ -1,0 +1,33 @@
+<svg version="1.1" id="completo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="253" height="358" viewBox="0 0 253 358" xml:space="preserve">
+  <style type="text/css">
+	.circle{
+		fill:#E9FDFF;
+		stroke:#754C24;
+		stroke-width:2;
+	}
+
+	.st1{
+		fill:#0071BC;
+		stroke:#754C24;
+		stroke-width:2;
+	}
+	
+  </style>
+  <rect id="rect" x="11" y="8.19" class="st1" width="229" height="339"/>
+  <g id="circulos">
+    <circle class="circle" cx="51.5" cy="138.69" r="23.5"/>
+    <circle class="circle" cx="76.5" cy="256.69" r="42.5"/>
+    <circle class="circle" cx="171.5" cy="165.69" r="18.5"/>
+    <circle class="circle" cx="146.41" cy="113.59" r="18.41"/>
+    <circle class="circle" cx="61" cy="67.19" r="33"/>
+    <circle class="circle" cx="137.5" cy="214.69" r="18.5"/>
+    <circle class="circle" cx="106.5" cy="139.69" r="12.5"/>
+    <circle class="circle" cx="126.5" cy="53.69" r="13.5"/>
+    <circle class="circle" cx="102" cy="179.19" r="17"/>
+    <circle class="circle" cx="138.5" cy="151.69" r="4.5"/>
+    <circle class="circle" cx="191.41" cy="73.78" r="26.6"/>
+    <circle class="circle" cx="195.5" cy="227.69" r="18.5"/>
+    <circle class="circle" cx="206.8" cy="130.39" r="16.8"/>
+    <circle class="circle" cx="174.75" cy="277.94" r="31.75"/>
+  </g>
+</svg>

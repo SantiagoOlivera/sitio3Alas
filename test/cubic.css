@@ -1,0 +1,25 @@
+.a{
+
+}
+.uno{
+
+}
+.dos{
+
+}
+.canguro{
+    background-image: url(steps.png);
+    width: 500px;
+    height: 360px;
+    animation-name: saltar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; velocidad constante*/
+    animation-timing-function: steps(12);
+}
+
+@keyframes saltar{
+    to{
+        background-position: -6000px 0;
+    }
+}

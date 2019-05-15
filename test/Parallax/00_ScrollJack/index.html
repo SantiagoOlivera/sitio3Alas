@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pregnant & Co.</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+</head>
+<body>
+	<div class="main">
+		<section class="section home shamrock">
+			<div>
+			  <img src="logo.png" alt="Pregnancy & Co.">
+			</div>
+			<h1>Pregnant & <span class="shake shake-delay">Co.</span></h1>
+			<h4>Aplicaciones para tu <span class="shake">Embarazo</span></h4>
+			<a class="arrow"></a>
+			
+		</section>
+		
+		<section class="section carrot">
+			<h1>El pack</h1>
+			<h4>La asombrosa colección de Apps</h4>
+				<div>
+					<p>Hemos decidido crear un producto para embarazadas ya que nos pareció imperativo el hecho de que exista una guía útil con las herramientas necesarias para acompañar al cliente en un proceso tan importante como el del embarazo o la búsqueda de este, ya que en definitiva será un proceso que cambiará su vida, y como en todo proceso importante en la vida, los seres humanos necesitamos de cierto nivel de información, confiabilidad y seguridad, y en este caso hemos encontrado la forma de transmitir utilizando el recurso de la tecnología, a través de un pack de aplicaciones accesible y fácil de utilizar.</p>
+				</div>
+			<a class="arrow"></a>
+		</section>
+		
+		<section class="section tomatoes">
+			<h1>Dónde conseguirlo</h1>
+				<div id="disponible">
+					<a href="https://itunes.apple.com/es" target="_blank"><img src="apple_.png" alt="Disponible en Apple Store"></a>
+					<a href="https://play.google.com/store" target="_blank"><img src="android_.png" alt="Disponible en Google Play"></a>
+				</div>
+		</section>
+				
+		<section class="section dolly dark-txt formu">
+			<h1>Contacto</h1>
+			<form action="#" method="post">
+				<table>
+					<tr>
+						<td>Nombre</td>						
+						<td><input type="text" name="nombre" id="nombre" placeholder="Nombre completo"></td>
+					</tr>
+					
+					<tr>
+						<td>Email</td>						
+						<td><input type="email" name="email" id="email" placeholder="Email"></td>
+					</tr>
+					
+					<tr>
+						<td>Comentarios</td>						
+						<td><textarea name="comentario" id="comentario" placeholder="Comentarios"></textarea></td>
+					</tr>
+					
+					<tr>
+						<td>&nbsp;</td>
+						<td><input type="submit" value="Enviar" id="enviar"></td>
+					</tr>
+				</table>
+			</form>
+		</section>
+	</div>
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".main").onepage_scroll({
+			   sectionContainer: "section",
+			   easing: "ease",
+			   animationTime: 900,
+			   pagination: true,
+			   updateURL: false,  
+			   beforeMove: function(index) {},
+			   afterMove: function(index) {},
+			   loop: false,
+			   keyboard: true,        
+			   responsiveFallback: false
+			});
+			$('.arrow').click(function(){
+				$(".main").moveDown();
+			})
+		}) // Ready
+
+		
+	</script>
+</body>
+</html>

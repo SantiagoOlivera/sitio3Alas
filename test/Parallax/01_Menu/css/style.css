@@ -1,0 +1,333 @@
+@charset "UTF-8";
+@font-face { font-family: 'Interstate'; font-weight: 400; src: url("../fonts/interstate_regular-webfont.eot"); src: url("../fonts/interstate_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstate_regular-webfont.woff2") format("woff2"), url("../fonts/interstate_regular-webfont.woff") format("woff"), url("../fonts/interstate_regular-webfont.ttf") format("truetype"); }
+
+@font-face { font-family: 'Interstate'; font-weight: 200; src: url("../fonts/interstate_light-webfont.eot"); src: url("../fonts/interstate_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstate_light-webfont.woff2") format("woff2"), url("../fonts/interstate_light-webfont.woff") format("woff"), url("../fonts/interstate_light-webfont.ttf") format("truetype"); }
+
+@font-face { font-family: 'Interstate'; font-weight: 600; src: url("../fonts/interstate_bold-webfont.eot"); src: url("../fonts/interstate_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstate_bold-webfont.woff2") format("woff2"), url("../fonts/interstate_bold-webfont.woff") format("woff"); }
+
+@font-face { font-family: 'Interstate'; font-weight: 900; src: url("../fonts/interstateblack-webfont.eot"); src: url("../fonts/interstateblack-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstateblack-webfont.woff2") format("woff2"), url("../fonts/interstateblack-webfont.woff") format("woff"); }
+
+@font-face { font-family: 'InterstateCondensed'; font-weight: 900; src: url("../fonts/interstatecondensedblack-webfont.eot"); src: url("../fonts/interstatecondensedblack-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstatecondensedblack-webfont.woff2") format("woff2"), url("../fonts/interstatecondensedblack-webfont.woff") format("woff"); }
+
+@font-face { font-family: 'Claredon'; font-weight: 600; src: url("../fonts/claredon_bold-webfont.eot"); src: url("../fonts/claredon_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/claredon_bold-webfont.woff2") format("woff2"), url("../fonts/claredon_bold-webfont.woff") format("woff"); }
+
+@font-face { font-family: 'InterstateMono'; font-weight: 400; src: url("../fonts/interstatemono-webfont.eot"); src: url("../fonts/interstatemono-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/interstatemono-webfont.woff2") format("woff2"), url("../fonts/interstatemono-webfont.woff") format("woff"); }
+
+.v-metodos .display [type="submit"], .detail form [type="button"], .detail form [type="submit"], .checkout2 .opciones a, .checkout2 .description > div:last-of-type a, .checkout3 .description > div:last-of-type a, .datos:last-child a, .reg .form-reg [type="submit"], .cuenta-volver, .local-cuarto a { font-size: 1.15em; width: 100%; max-width: 270px; border: 1px solid; padding: 5px 0; text-transform: uppercase; margin-bottom: 10px; }
+
+/* Cabecera --------------------------------- */
+header { background-color: #3c210a; background-size: cover; height: 100vh; position: relative; }
+
+.variedades header { background-image: url("../img/destacado_variedades1.png"); background-position: top center; }
+
+.home header { /* bg-image desde PHP */ background-position: top center; }
+
+.metodos header { background-image: url("../img/cafe_web_imagen_metodos.jpg"); background-position: top center; }
+
+.escuela header { background-image: url("../img/somos_escuela.jpg"); background-position: top center; }
+
+.local header { background-image: url("../img/nuestro_local.jpg"); background-position: top center; }
+
+.menues header { background-image: url("../img/cafe_web_imagen_menu.jpg"); background-position: top center; }
+
+.vista header, .checkout header, .reg header { height: 145px; background-color: transparent; }
+
+.gracias header { background-image: url("../img/cafe_web_imagen_gracias.jpg"); background-position: top center; }
+
+.error-compra header { background-image: url("../img/cafe_web_imagen_error.jpg"); background-position: top center; }
+
+header > .navbar { width: 100%; height: 70px; position: absolute; background-color: transparent; top: -2px; z-index: 1; }
+
+header > .navbar > .container { margin: auto; }
+
+header .navbar-nav { text-align: center; }
+
+header .navbar-nav li:not(.avoid) a, header .navbar-nav #logreg1, header .navbar-nav #logreg2 { text-transform: uppercase; line-height: 1em; padding-top: 2px; padding-bottom: 2px; margin-top: 22px; }
+
+header .navbar-nav .first { font-size: 0.7em; display: block; }
+
+header .navbar-nav #logreg1 a { color: #FFF; }
+
+header .navbar-nav #logreg1 a:first-of-type, header .navbar-nav #logreg2 a:first-of-type { cursor: pointer; }
+
+header .navbar-nav #logreg1, header .navbar-nav #logreg2 { max-width: 100px; margin-right: 0; }
+
+@media (max-width: 1120px) { header .navbar-nav #logreg1, header .navbar-nav #logreg2 { max-width: 80px; } }
+
+header .navbar-nav #logreg1 span:not(.first), header .navbar-nav #logreg2 span:not(.first) { color: #FFF; text-transform: lowercase; }
+
+header .navbar-nav #logreg1 a:hover, header .navbar-nav #logreg2 a:hover { box-shadow: none; }
+
+header .navbar-nav .shop { background-image: url("../svg/op_header_ribbon.svg"); background-size: cover; width: 80px; height: 90px; margin-left: 10px; margin-right: 10px; }
+
+header .navbar-nav .shop a { margin-right: 0; margin-left: 0; }
+
+header .navbar-nav .shop a:hover { box-shadow: none; }
+
+header .navbar-nav .s-media { width: 52px; margin-top: 10px; }
+
+header .navbar-nav .s-media a { width: 22px; height: 22px; display: block; float: left; overflow: hidden; color: transparent; padding: 0; margin: 1px; background-image: url("../svg/op_header_redes.svg"); }
+
+header .navbar-nav .s-media a:nth-child(1) { background-position: 1px 1px; }
+
+header .navbar-nav .s-media a:nth-child(4) { background-position: 1px 23px; }
+
+header .navbar-nav .s-media a:nth-child(3) { background-position: 1px 45px; }
+
+header .navbar-nav .s-media a:nth-child(2) { background-position: 1px 67px; }
+
+header .navbar-nav .s-media a:hover { color: transparent; }
+
+header li:not(.avoid) a:hover, header .activo { box-shadow: 0 0 0 1px #FFF; }
+
+header .avoid > a { padding-top: 12px; }
+
+header .out { margin-top: 10px; }
+
+header .out a { margin-right: 5px; margin-left: 5px; }
+
+@media (max-width: 1110px) { header .nav > li > a { padding: 15px 10px; } }
+
+.login-mobile { display: none; }
+
+.login-mobile span { color: #FFF; }
+
+#log-barra, .login-mobile { height: 30px; background-color: #000; text-align: right; text-transform: uppercase; color: #935119; }
+
+.perfil { padding-left: 30px; }
+
+@media (max-width: 350px) { .perfil { padding-left: 20px; } }
+
+.perfil a { color: #FFF; font-size: 0.7em; }
+
+.perfil::before { content: ""; width: 20px; height: 18px; position: relative; top: 2px; display: inline-block; background-image: url("../svg/op_log-bar.svg"); background-repeat: no-repeat; background-size: cover; }
+
+.perfil::before { background-position: 0 0; }
+
+.compra::before { background-position: -20px 0; }
+
+.navbar-header a { width: 150px; height: 140px; display: block; margin-top: 20px; z-index: 1; position: relative; }
+
+@media (max-width: 767px) { .navbar-header a { margin-top: 10px; } }
+
+.navbar-header svg { max-width: 150px; }
+
+@media (max-width: 767px) { .navbar-header svg { height: 60px; transform: scale(1.3); transform-origin: top left; } }
+
+.navbar-header #taza path { fill: #FFF; transform: scale(1); transition: fill 0.3s; }
+
+@media (max-width: 767px) { .navbar-header #taza path { transform: scale(1.1); } }
+
+.navbar-header .texto { fill: #FFF; }
+
+.navbar-header #cafe { opacity: 1; transition: opacity 0.6s; }
+
+@media (max-width: 767px) { .navbar-header #cafe { display: none; } }
+
+.navbar-header .barra { fill: #935119; }
+
+/* Menú fijo --------------------------------- */
+header .fijo { position: fixed; z-index: 2; height: 80px; background-color: #f6f6f6; transition: background-color 0.3s; }
+
+header .fijo .navbar-nav > li:not(.shop):not(.avoid) > a { color: #000; }
+
+/* Do not try this at home */
+header .fijo .navbar-nav > li:not(.shop):not(.avoid) > a:hover, header .fijo .navbar-nav > li:not(.shop):not(.avoid) > a.activo { color: #000; box-shadow: 0 0 0 1px #000; }
+
+header .fijo #collapse .navbar-nav > li:not(.s-media) > a { color: #FFF; }
+
+header .fijo #collapse .s-media a { color: transparent; }
+
+header .fijo ul #logreg1 a, header .fijo ul #logreg1 span:not(.first), header .fijo ul #logreg2 a, header .fijo ul #logreg2 span:not(.first) { color: #000; }
+
+header .fijo .cuerpo, header .fijo .ruedas { fill: #000; }
+
+header .fijo .navbar-header a { height: 60px; overflow: hidden; transition: height 0s 0.8s; }
+
+header .fijo .navbar-header #cafe { animation: aparecerf 0.4s forwards reverse; }
+
+header .fijo .navbar-header #taza path { fill: #000; transition: fill 0.5s; }
+
+.fijo.logged-on { height: 110px; /*.shop{ margin-top: -1px; }*/ }
+
+@media (max-width: 768px) { .login-mobile { display: block; }
+  header .fijo { height: 110px; } }
+
+/* Carritos --------------------------------- */
+.cart { width: 40px; }
+
+.cart .recuadro { fill: #935119; }
+
+.white .ruedas, .white .cuerpo { fill: #FFF; }
+
+.black .ruedas { fill: #000; }
+
+.black .cuerpo { fill: #000; }
+
+/* -----------------------------
+	Mobile Menú 
+*/
+#nav-icon3 { padding: 6px; width: 40px; height: 45px; position: relative; transform: rotate(0deg); transition: .5s ease-in-out; }
+
+#nav-icon3 span { display: block; position: absolute; height: 3px; width: 100%; background-color: #FFF; border-radius: 2px; opacity: 1; left: 0; transform: rotate(0deg); transition: .25s ease-in-out; }
+
+#nav-icon3 span:nth-child(1) { top: 6px; }
+
+#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) { top: 18px; }
+
+#nav-icon3 span:nth-child(4) { top: 30px; }
+
+#nav-icon3.open span:nth-child(1) { top: 18px; width: 0%; left: 50%; }
+
+#nav-icon3.open span:nth-child(2) { transform: rotate(45deg); }
+
+#nav-icon3.open span:nth-child(3) { transform: rotate(-45deg); }
+
+#nav-icon3.open span:nth-child(4) { top: 18px; width: 0%; left: 50%; }
+
+/* Destacados --------------------------------- */
+.destacado { color: #FFF; text-shadow: 0 0 2px #000; text-align: center; }
+
+.variedades .destacado, .metodos .destacado, .menues .destacado, .gracias .destacado, .error-compra .destacado, .escuela .destacado, .local .destacado { padding-top: 23vh; }
+
+@media (max-width: 1400px) and (min-width: 768px) { .destacado { padding-top: 130px; } }
+
+@media (max-width: 767px) { .destacado { padding-top: 100px; } }
+
+.destacado img { margin: 10px auto; }
+
+@media (max-width: 767px) { .destacado img { max-width: 100%; } }
+
+.destacado h2, .destacado.prepie h3, .destacado .local-bienvenido { font-family: "Playfair Display", serif; font-size: 1.5em; text-transform: uppercase; line-height: 1.5em; margin: 0; }
+
+@media (max-width: 767px) { .destacado h2, .destacado.prepie h3, .destacado .local-bienvenido { font-size: 1.1em; } }
+
+.destacado h1, .destacado.prepie h2 { font-size: 4.5em; text-transform: uppercase; line-height: 1.2em; margin: 0; font-weight: 900; font-family: "InterstateCondensed", sans-serif; }
+
+@media (max-width: 1440px) and (min-width: 768px) { .destacado h1, .destacado.prepie h2 { font-size: 4em; } }
+
+@media (max-width: 767px) { .destacado h1, .destacado.prepie h2 { font-size: 3em; } }
+
+.destacado p { font-size: 1.1em; line-height: 1.35em; width: 570px; margin: auto; font-weight: 200; }
+
+@media (max-width: 1440px) and (min-width: 768px) { .destacado p { width: 700px; } }
+
+@media (max-width: 767px) { .destacado p { max-width: 550px; width: 100%; } }
+
+.destacado p:first-of-type { font-family: "Playfair Display", serif; }
+
+@media (max-width: 767px) { header .destacado p:first-of-type { display: none; }
+  .metodos .destacado p:first-of-type { display: block; } }
+
+.variedades .destacado:not(.prepie) .sub { text-transform: uppercase; font-weight: 200; }
+
+.destacado .ver { font-family: "Claredon", serif; font-size: 1.1em; text-transform: uppercase; box-shadow: 0 0 0 1px #FFF; color: #FFF; margin-right: auto; margin-left: auto; padding: 6px 15px; display: block; width: 170px; margin-top: 40px; margin-bottom: 40px; }
+
+@media (max-width: 767px) { .destacado .ver { padding: 10px; font-size: 1em; } }
+
+@media (max-width: 450px) { .destacado .ver { padding: 5px 3px; width: 150px; } }
+
+.destacado .ver:hover { box-shadow: 0 0 0 1px #999999; }
+
+@media (max-width: 1200px) { .home .destacado .ver { margin-top: 10px; } }
+
+@media (max-width: 767px) { .destacado .ver { max-width: 300px; } }
+
+.destacado .flecha { display: block; position: absolute; bottom: 5vh; left: 50%; margin-left: -15px; animation: flecha 2s infinite ease-in-out; }
+
+@media (max-height: 700px) { .destacado .flecha { bottom: 10px; } }
+
+.destacado.prepie .ver { max-width: 190px; }
+
+.prepie { background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center top; min-height: 430px; margin-bottom: 10px; }
+
+.variedades .prepie { background-image: url("../img/destacado_variedades2.png"); }
+
+.metodos .prepie { background-image: url("../img/destacado_metodos2.png"); }
+
+.local .prepie { background-image: url("../img/destacado_local.jpg"); }
+
+.home .prepie { background-image: url("../img/destacado_home2.jpg"); position: relative; }
+
+.home .prepie .container > div { max-width: 500px; margin-top: 100px; }
+
+@media (min-width: 1200px) { .home .prepie .container > div { margin-left: 100px; } }
+
+.home .prepie h2 { text-align: left; max-width: 500px; }
+
+.destacado.prepie { padding-top: 70px; }
+
+/* Métodos --------------------------------- */
+.metodos .fijo { z-index: 2; }
+
+.metodos .carousel { position: relative; top: 0; }
+
+.metodos .carousel h2, .metodos .carousel p, .metodos .carousel a { color: #000; text-shadow: none; text-align: left; }
+
+.metodos .carousel h2 { font-size: 3.75em; line-height: 1; margin-bottom: 0; margin-top: 0; }
+
+.metodos .carousel p { margin-top: 15px; font-family: "Playfair Display", serif; line-height: 1.2; width: 485px; }
+
+@media (max-width: 1200px) { .metodos .carousel p { width: 340px; } }
+
+@media (max-width: 991px) { .metodos .carousel p { width: 300px; } }
+
+.metodos .carousel .item { min-height: 540px; top: -180px; }
+
+.metodos .carousel .item img { max-width: 300px; left: -50px; }
+
+@media (max-width: 1200px) { .metodos .carousel .item { min-height: 610px; }
+  .metodos .carousel .item img { padding-right: 0; } }
+
+.metodos .carousel .left { z-index: 1; }
+
+.metodos .carousel .left span img { transform: rotate(180deg); }
+
+.metodos .carousel .carousel-control { width: 10%; height: 480px; line-height: 480px; }
+
+.metodos .carousel iframe { position: absolute; left: 14px; }
+
+.metodos .carousel .boton { font-family: "Claredon", serif; font-size: 1.1em; text-transform: uppercase; box-shadow: 0 0 0 1px #935119; color: #935119; margin-right: auto; margin-left: auto; padding: 6px 15px; display: block; width: 170px; width: 268px; text-align: center; margin: 0; margin-top: 182px; }
+
+@media (max-width: 767px) { .metodos .carousel .boton { padding: 10px; font-size: 1em; } }
+
+@media (max-width: 450px) { .metodos .carousel .boton { padding: 5px 3px; width: 150px; } }
+
+@media (max-width: 767px) { .metodos .carousel { width: 95%; margin: auto; }
+  .metodos .carousel .carousel-inner { min-height: 950px; width: 400px; margin: auto; }
+  .metodos .carousel .carousel-caption { width: 400px; left: 0; }
+  .metodos .carousel .item img { margin-bottom: 20px; width: 200px; left: 22%; }
+  .metodos .carousel h2 { font-size: 2.4em; }
+  .metodos .carousel p, .metodos .carousel h2 { width: 100%; text-align: center; }
+  .metodos .carousel iframe { left: 16%; }
+  .metodos .carousel .boton { margin-left: auto; margin-right: auto; } }
+
+.metodos .carousel-caption { top: 180px; }
+
+.metodos .featured a:hover { text-decoration: none; }
+
+.metodos .featured a:hover h3 { color: #000; }
+
+.metodos .featured h3 { color: #935119; font-size: 0.9em; text-transform: uppercase; font-weight: 400; text-align: center; }
+
+.metodos .featured span { min-height: 150px; padding-top: 20px; text-align: center; display: flex; justify-content: center; align-items: flex-end; }
+
+@media (max-width: 1099px) { .metodos .featured .ancho1 img { flex-basis: 140px; flex-shrink: 0; }
+  .metodos .featured .ancho2 img { flex-basis: 120px; flex-shrink: 0; } }
+
+@media (max-width: 767px) { .metodos .featured { display: none; } }
+
+.metodos .prepie .ver { width: 250px; padding-left: 0; padding-right: 0; }
+
+
+/* Animaciones -------------------------------- */
+@keyframes flecha { 20% { transform: translateY(5px); }
+  80% { transform: translateY(-5px); } }
+
+@keyframes aparecer { 0% { opacity: 0;
+    transform: scale(0, 0); }
+  100% { opacity: 1;
+    transform: scale(1, 1); } }
+
+@keyframes aparecerf { 0% { opacity: 0; }
+  100% { opacity: 1; } }
