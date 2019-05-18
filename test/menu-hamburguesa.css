@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    /*width: 90%;*/
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.menu-list{
+     list-style: none;
+     background-color: pink;
+     display: flex;
+}
+.menu-list-item{
+    flex-grow: 1;
+}
+.menu a{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: yellow;
+}
+.menu a:hover{
+    background-color: gold;
+}
+h1, h2{
+    margin-bottom: 32px;
+}
+.menu-boton{
+    display: none;
+}
+
+
+
+@media (max-width: 760px){
+    .menu{
+        position: relative;
+    }
+    .menu-list{
+        display: none;
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu a{
+        background-color: orange;
+        border-bottom: 1px dashed white;
+    }
+    
+}
+
+/* Es mas obtimo*/
+.mostrar{
+    display: flex;
+}
