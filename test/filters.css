@@ -1,0 +1,12 @@
+
+img{
+    filter: grayscale(0.5);
+    filter: invert(1);
+    /* lo hace girar en el circulo cromatico*/
+    filter: hue-rotate(0deg); 
+}
+
+img:hover{
+    filter: hue-rotate(360deg);
+    transition: filter 10s;
+}

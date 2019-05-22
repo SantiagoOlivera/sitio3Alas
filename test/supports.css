@@ -1,0 +1,9 @@
+body{
+    background-color: red;
+}
+/* Preguntamos si background-blen-mode no funciona */
+@supports (background-blend-mode: multiply){
+    body{
+        background-color: green;
+    }
+}

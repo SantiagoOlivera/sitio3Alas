@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Clip-Path</title>
+		<style>
+			img{
+				/* clip-path:circle(50px 50px); */
+				/* clip-path: ellipse(50px 50px); */
+				clip-path: polygon(
+					50% 0,
+					50% 0,
+					0 100%,
+					100% 100%
+				);
+				transition: clip-path 1s;
+				transition-timing-function: cubic-bezier(0.58,1.25,0.68,1.85);
+			}
+			img:hover{
+				/* clip-path: circle(200px); */
+				/* clip-path: ellipse(200px 75px); */
+				clip-path: polygon(
+					100% 0,
+					0 0,
+					0 100%,
+					100% 100%
+				);
+			}
+		</style>
+	</head>
+	<body>
+		<img src="img/bosque.png" alt="Clip-Path">
+		
+	</body>
+</html>
