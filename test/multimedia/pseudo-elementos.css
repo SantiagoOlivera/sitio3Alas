@@ -1,0 +1,7 @@
+/* Segun estandar van ::*/
+h1::before{
+    content:"Chau";
+}
+h1::after{
+    content: "Hola de nuevo";
+}

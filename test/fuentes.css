@@ -1,0 +1,14 @@
+/* @font-face para cargar fuentes de manera local */
+/*
+extenciones de fuentes
+.ttf
+.otf
+.woff / woff2 (formato de fuente para webs)
+
+*/
+h1{
+    font-size: 60px;
+    color:#900;
+    font-family: 'Pacifico', cursive;
+}
+

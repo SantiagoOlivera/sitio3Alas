@@ -1,0 +1,52 @@
+td::selection{
+    background-color: orange;
+}
+
+
+/* modificamos el primer elemento (fila) sin modificar el html*/
+tr:first-child{
+    background-color: black;
+    font-weight: bold;
+    color:white;
+}
+/* modificamos el ultimo elemento(fila)*/
+/* tr:last-child{
+    background-color: pink;
+} */
+
+/*columnas*/
+
+/* td:first-child{
+    background-color: orange;
+} */
+
+
+/* Combinados, tiene prioridad el tr porque el td esta dentro de el*/
+/* tr:first-child td:first-child{
+    background-color: black;
+}
+ */
+
+
+
+ /* Zebra */
+
+ /*
+    nth-child -> number of child
+    2n: secuencia -> Uno sí, uno no
+    +3: cuando empieza a contar esa secuencia
+
+    existe tambien para contar desde abajo(usa la palabra last-child)
+ */
+ tr:nth-child(2n+3){
+     background-color: #CCC;
+ }
+
+
+/* que el que termine en PDF */
+ a[href$="pdf"]{
+    background-color: purple;
+ }
+ a[target="_blank"]{
+     background-color: yellow;
+ }
