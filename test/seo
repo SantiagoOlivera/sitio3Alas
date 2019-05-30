@@ -1,0 +1,36 @@
+PageRank: 0-10
+Que tan importante es tu sitio dependiendo de 
+cuantos sitios enlazaban a ese sitio.
+
+
+Google Insight = evalua posicionamiento
+KeyBoard Planner
+
+-HTML lindo
+-H1 unico y obligatorio por pagina
+-Validar el HTML en la W3C (Validator W3C)
+-todas las paginas deben verse bien sin css
+-etiqueta strong para palabras importantes del contenido
+-keywords
+
+
+-Para pedirle a los buscadores que no indexen el sitio
+<meta name="robots" content="noindex,nofollow" />
+Crear archivo robots.txt y el robot de google ignora esas carpetas
+
+
+-Open Graph Social Card para generar enlaces a tu sitios que se vean bonitos en las redes sociales
+
+
+Google Analitics para saber cuantos usuarios entran a tu sitio
+
+
+-web.dev para medir la perfonmance de tu sitio
+-Page speed google
+-Web Page Test
+
+
+
+
+
+Herramientas para medir que el sitio funciona rapido:

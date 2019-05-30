@@ -1,0 +1,6 @@
+robots.txt /examples
+User-agent: *
+Disallow:
+        /utn
+        /uade
+        /umsa
