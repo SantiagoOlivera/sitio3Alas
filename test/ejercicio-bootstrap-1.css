@@ -1,0 +1,5 @@
+div[class^="col"]{
+    background-color:pink;
+border:3px solid hotpink;
+padding: 20px;
+}

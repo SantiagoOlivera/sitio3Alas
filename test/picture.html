@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- sirve para dar un formato alternativo -->
+
+
+    <!-- 
+    cambiamos la imagen grande por la chica cuando redimensionamos la pantalla
+    mejora de perfonmance de la pagina porque utiliza menos datos en dispositivos
+    moviles
+     -->
+    <picture>
+        <source
+        srcset="imagen-chica.jpg" 
+        media="(max-width: 767px)"
+        >
+            <img src="imagen-grande.jpg" alt="gatito">
+    </picture>
+    
+</body>
+</html>

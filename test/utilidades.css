@@ -1,0 +1,7 @@
+.sr-only:focus{
+    width: auto;
+    height: auto;
+    clip: auto;
+    background-color: hotpink;
+    padding: 20px;
+}

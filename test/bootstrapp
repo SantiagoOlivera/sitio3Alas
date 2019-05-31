@@ -1,0 +1,16 @@
+bootstrap es un libreria
+sistemas de grillas de 12 columnas
+bootstrap 3.x sistema de grillas original de bootstrap
+bootstrap 4.x funciona con flexbox
+
+CDN  =  ej Google Fonts
+los CDN se almacenan en caches para que no se tengan que volver a descargar si es que ingresas a un sitio que previamente tenia ese elemento
+-Los CDNs no funcionan si te quedas si internet
+
+-Desventaja de bootstrap es muy pesado el css
+
+
+-Los CDNs tiene un tiempo de vida en el cache 1 año aprox 
+
+
+
