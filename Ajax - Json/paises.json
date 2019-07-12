@@ -2,12 +2,12 @@
 {"paises":
 	[
 		{
-			"pais": "Argentina",
+			"nombre": "Argentina",
 			"poblacion": 47000000,
 			"colores": ["azul", "blanco", "celeste"]
 		},
 		{
-			"pais": "Alemania",
+			"nombre": "Alemania",
 			"poblacion": 81000000,
 			"colores": ["amarillo", "rojo", "negro"]
 		}
