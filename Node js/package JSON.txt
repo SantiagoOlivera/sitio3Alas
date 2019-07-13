@@ -1,0 +1,23 @@
+npm -v (nos da la version de npm instalada)
+npm i "NOMBRE Paquete"
+npm install "NOMBRE Paquete"
+
+En este archivo se van a guardar las dependencias
+Package lock --NO MODIFICAR --guarda las dependencias del paquete descargado
+node_modules --NO SUBIR A GIT
+
+
+--save-dev lo guarda como dependencia solo de desarrollo y no de produccion
+te genera :
+"devDependencies": {
+    "eslint": "^6.0.1"
+  }
+con la dependencia de Desarrollo
+airbnb
+
+
+npm i -g eslint  (Se instala en la computadora (se corre una sola vez en la maquina))
+sudo np, i -g eslint (Para Mac)
+eslint --init
+
+eslint *.js busca todos los archivos con extencion js y tirar los errores de sintaxis
