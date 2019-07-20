@@ -1,0 +1,40 @@
+localStorage    (LocalSotorage sirve para guardar datos, la info se mantiene- trabaja opr dominio y vive en el servidor ) ---Aplication
+sessionStorage  (Muere cuando cerras el navegador) ---Aplication
+Cookie
+
+Typescript es lo que es sass para css
+el navegador no lo entiendo por lo tanto 
+necesitamos un  compilador para javascript
+
+npm install -g typescript   //instalacion global y actualizacion
+tsc -v                      //ver version
+
+
+Sarah Drasner //animaciones web
+Udacity -> Perfomance Google
+
+
+Import y Export MDN
+importar y exportar funciones de javascript de otros archivos js
+
+
+Angular -> Google    -> SSR
+React   -> Facebook
+Vue     -> Indie
+
+
+npm install -g @angular/cli (cli = comand line interface)  //instalacion global
+ng --version    //Ver version Angular
+ng new proyect-name --style=scss --routing=true --skipTests = true
+
+cd carpetaAProyecto 
+
+npm audit       //hace una auditoria de las dependencias
+
+npm serve o npm run start //ejecutar el sitio en desarrollo igual a http-server
+                          // Ir a localhost:4200
+
+
+
+
+
